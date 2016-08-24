@@ -25,7 +25,7 @@ so if you notice anything wrong in a different MUD let me know via
     $ npm install
     $ vim config/config.json
     $ node init.js &
-    $ open http://localhost:6660
+    $ open http://localhost
 
 ### Aliases
 
