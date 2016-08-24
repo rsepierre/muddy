@@ -20,11 +20,8 @@ var log = function(string) {
   console.log('\033[36m[ muddy ]\033[0m → ' + string)
 }
 
-app.configure(function() {
-  app.set('views', __dirname + '/views')
-  app.use(express.static(__dirname + '/public'))
-})
-
+app.set('views', __dirname + '/views')
+app.use(express.static(__dirname + '/public'))
 app.get('/', function(req, res) {
   res.render('index.ejs', {
     layout: false,
