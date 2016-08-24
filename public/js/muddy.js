@@ -1,6 +1,6 @@
 $(function() {
   var world   = new World('#world')
-    , socket  = io.connect(window.location.hostname)
+    , socket  = io.connect(window.location+'')
 
   var resizeUI = function() {
     $('#input input').width(window.innerWidth - 30)
