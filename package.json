@@ -1,6 +1,9 @@
 {
   "name": "muddy",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node init.js"
+  },
   "dependencies": {
     "ejs": "",
     "express": "",
