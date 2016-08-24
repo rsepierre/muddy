@@ -67,4 +67,4 @@ io.sockets.on('connection', function(socket) {
   })
 })
 
-server.listen(6660)
+server.listen(443)
