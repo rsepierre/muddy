@@ -66,5 +66,5 @@ io.sockets.on('connection', function(socket) {
     }
   })
 })
-
-server.listen(443)
+console.log(process.env.PORT)
+server.listen(process.env.PORT)
