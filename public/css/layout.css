@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #909090;
     background: #272727;
 }
@@ -45,14 +45,18 @@ ul {
 #input {
     position: fixed;
     bottom: 0;
-    height: 40px;
-    line-height: 40px;
+    height: auto;
+    width: 100%;
 }
 
 #input input {
-    vertical-align: center;
+    line-height: 40px;
+    vertical-align: middle;
     font-family: DroidSansMono;
     color:white;
+    height: 40px;
+    width: 100%;
+    backgroud-color:#272727;
     border-top: 1px dashed #ffffff;
 }
 
