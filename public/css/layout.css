@@ -8,9 +8,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
+    letter-spacing: 1.2px;
     color: #909090;
-    background: #272727;
+    background: #151515;
 }
 
 @font-face {
@@ -33,10 +34,9 @@ ul {
 }
 
 #client .output {
-    overflow-x: hidden;
-    overflow-y: auto;
     padding: 10px;
     height: 100vh;
+    padding-bottom:35px;    
     font-family: DroidSansMono;
     white-space: pre-wrap;
     color: white;
@@ -47,17 +47,19 @@ ul {
     bottom: 0;
     height: auto;
     width: 100%;
+    border-top: 1px dashed #ffffff;
 }
 
 #input input {
+    width: 100%;
+    height: 40px;
     line-height: 40px;
     vertical-align: middle;
     font-family: DroidSansMono;
     color:white;
-    height: 40px;
-    width: 100%;
-    backgroud-color:#272727;
-    border-top: 1px dashed #ffffff;
+    background-color:#272727;
+    border:none;
+    padding: 0px 10px;
 }
 
 #input input:focus {
