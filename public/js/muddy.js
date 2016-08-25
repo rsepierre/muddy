@@ -2,13 +2,13 @@ $(function() {
   var world   = new World('#world')
     , socket  = io.connect(window.location+'')
 
-  var resizeUI = function() {
+  /*var resizeUI = function() {
     $('#input input').width(window.innerWidth - 30)
     $('.output').height(window.innerHeight - 115)
     $('.output').attr({ scrollTop: $('.output').attr('scrollHeight') })
   }
 
-  resizeUI()
+  resizeUI()*/
 
   socket.on('connect', function() {
     $('input').focus()
@@ -31,9 +31,9 @@ $(function() {
       }
     })
 
-    window.onresize = function(event) {
+/*    window.onresize = function(event) {
       resizeUI()
-    }
+    }*/
   })
 
   socket.on('message', function(message) {
